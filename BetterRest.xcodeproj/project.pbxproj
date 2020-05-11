@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA6072AE2469D7F9004086DC /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DA6072AD2469D7F9004086DC /* SleepCalculator.mlmodel */; };
 		DA6471D72467CFAA00DF931B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6471D62467CFAA00DF931B /* AppDelegate.swift */; };
 		DA6471D92467CFAA00DF931B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6471D82467CFAA00DF931B /* SceneDelegate.swift */; };
 		DA6471DC2467CFAA00DF931B /* BetterRest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA6471DA2467CFAA00DF931B /* BetterRest.xcdatamodeld */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA6072AD2469D7F9004086DC /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 		DA6471D32467CFAA00DF931B /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6471D62467CFAA00DF931B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA6471D82467CFAA00DF931B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				DA6471DA2467CFAA00DF931B /* BetterRest.xcdatamodeld */,
+				DA6072AD2469D7F9004086DC /* SleepCalculator.mlmodel */,
 			);
 			path = "Data Layer";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				DA6471DC2467CFAA00DF931B /* BetterRest.xcdatamodeld in Sources */,
 				DA6471D72467CFAA00DF931B /* AppDelegate.swift in Sources */,
+				DA6072AE2469D7F9004086DC /* SleepCalculator.mlmodel in Sources */,
 				DA6471DE2467CFAA00DF931B /* ContentView.swift in Sources */,
 				DA6471D92467CFAA00DF931B /* SceneDelegate.swift in Sources */,
 			);
